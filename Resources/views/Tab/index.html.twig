@@ -1,0 +1,10 @@
+{% extends 'ClientProjectBundle::layout.html.twig' %}
+{% block content %}
+
+<br />
+This is a public page. <br /> 
+<br />
+<a href="{{ path('_auth') }}">click here</a> to view a page that requires facebook auth.<br />
+<br />
+<a href="{{ path('_deep_link') }}">click here</a> to view a deep link example.<br />
+{% endblock %}
